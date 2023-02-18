@@ -1,8 +1,6 @@
-
-
 # Monitoring
 
-Here it is shown how we monitor the Kubernetes metrics of our cluster using **Prometheus** and **Grafana**
+Here is shown how we monitor the Kubernetes metrics of our cluster using **Prometheus** and **Grafana**
 
 ### Deploying Prometheus and Grafana:
 
@@ -15,7 +13,7 @@ helm upgrade prometheus prometheus-community/kube-prometheus-stack --install --v
 
 
 
-#### Adding ServiceMonitor:S
+#### Adding ServiceMonitor:
 
 ```yaml
 apiVersion: monitoring.coreos.com/v1
@@ -61,7 +59,7 @@ kubectl get svc --all-namespaces
 
   =>  Possible Output:
 
-  - ```bash
+  - ```
     root@ubuntu-mse-kubernetes-0001:/home/ubuntu# kubectl get svc prometheus-grafana -o yaml
     apiVersion: v1
     kind: Service
