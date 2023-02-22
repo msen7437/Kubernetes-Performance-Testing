@@ -60,48 +60,43 @@ Deployment-Level-Metrics are used to check the health of Deployments.
 
 Pod-Level-Metrics are used to check the health of Pod.
 
-1. #### OOMkilled Pods
+1. #### OOMkilled Pods:
 
    - Number of Pods that got killed because of exceeding its memory limits [2]
 
      
 
-2. #### Pod States
+2. #### Pod States:
 
    - There are different states of pods:
 
      - Running
-
      - CrashLoopBackOff
-
      - Pending
-
      - ...
+  
+   - The states of the pods can indicate different issues like misconfiguration or not enough ressources 
 
-       
+   
 
-3. #### API-Responsiveness
+3. #### API-Responsiveness:
 
    - A metric  that defines one of Kubernetes performance goals [3]
    - A lot of Kubernetes pods and services communicate using API requests, therefore the Responsiveness of those APIs is also an indicator for Cluster performance
 
 
 
-4. #### Pod startup time
+4. #### Pod startup time:
 
    - If a pod takes along amount of time to start it may indicate performance issues [3]
 
      
 
-​			2.1.3.1 OOM-killed Pods
+5. #### Pod Creation Latency:
 
-​			2.1.3.2 Pod States
+   - If Pods take a long time before finally starting it may indicate issues with Kubelet or the API-Server [2]
 
-​			2.1.3.3 API-Responsiveness
-
-​			2.1.3.4 Pod startup time
-
-​			2.1.3.5 Pod Creation Latency
+     
 
 ## Sources:
 

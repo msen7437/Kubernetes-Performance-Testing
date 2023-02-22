@@ -2,6 +2,8 @@
 
 The scientific work will be written in german, therefore everything in this directory will also be written in german but the contents of this directory do not differ much from my [Research](..\Research),  [Experiments](..\Experiments)  or [Testing-Environments](..\Testing-Environment).
 
+
+
 ## Inhaltsverzeichnis:
 
 
@@ -45,28 +47,30 @@ The scientific work will be written in german, therefore everything in this dire
    
    ​			2.1.3.5 Pod Creation Latency
    
-   2.2. Load Testing
+   2.2. Last Testen
    
-   2.3. Stress Testing
+   2.3. Stress Testen
    
 3. Methodik
 
+   3.1. Testing Methoden
+
+   3.2. Testing Tools/Anwendungen
+
 4. Aufbau einer Testumgebung
-   
+
    4.1. Ressourcen
-   
-   4.2. Technologien
-   
+
+   4.2. Technologien/Anwendungen
+
    4.3. Monitoring
-   
+
 5. Testen des Clusters
-   
-   5.1. Node Level Testing
-   
-   5.2. Namespace Level Testing
-   
-   5.3. Deployment Level Testing
-   
-   5.4. Pod Level Testing
-   
-6. Auswertung
+
+   5.1. API Last Tests
+
+   5.2. API Stress Tests
+
+6. Auswertung der Ergebnisse
+
+7. Fazit
