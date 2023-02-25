@@ -47,9 +47,9 @@ The scientific work will be written in german, therefore everything in this dire
    
    ​			2.1.3.5 Pod Creation Latency
    
-   2.2. Last Testen
+   2.2. Lasttests
    
-   2.3. Stress Testen
+   2.3. Stresstests
    
 3. Methodik
 
@@ -57,20 +57,23 @@ The scientific work will be written in german, therefore everything in this dire
 
    3.2. Testing Tools/Anwendungen
 
-4. Aufbau einer Testumgebung
 
-   4.1. Ressourcen
+4. Praktischer Teil --> Alternativer Titel wird benötigt
 
-   4.2. Technologien/Anwendungen
+   4.1. Aufbau einer Testumgebung
 
-   4.3. Monitoring
+      4.1.1. Ressourcen
 
-5. Testen des Clusters
+      4.1.2. Technologien/Anwendungen
 
-   5.1. API Last Tests
+      4.1.3. Monitoring
 
-   5.2. API Stress Tests
+   4.2. Testen des Clusters
 
-6. Auswertung der Ergebnisse
+      4.2.1. API Last Tests
 
-7. Fazit
+      4.2.2. API Stress Tests
+
+5. Auswertung der Ergebnisse
+
+6. Fazit
