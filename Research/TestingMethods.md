@@ -28,20 +28,6 @@ The goal here is to find hwo much a system can handle and how it behaves during 
 
 
 
-## Tools
-
-
-
-#### K6:
-
-K6 is a well documented free API testing tool/library that meets all the requirements for this scientific works
-
-
-
-#### Speedscale
-
-Speedscale is a CLI tool that lets you do different kinds of performance tests on a kubernetes cluster. Right now its not clear if it will be used in this scientific work
-
 
 
 
