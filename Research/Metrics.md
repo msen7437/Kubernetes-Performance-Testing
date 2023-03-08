@@ -74,7 +74,7 @@ Pod-Level-Metrics are used to check the health of Pod.
      - CrashLoopBackOff
      - Pending
      - ...
-    
+   
    - The states of the pods can indicate different issues like misconfiguration or not enough ressources 
 
    

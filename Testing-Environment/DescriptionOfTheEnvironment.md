@@ -74,7 +74,14 @@ Follow these instructions: https://docs.k3s.io/quick-start
   kubectl drain <nodeName>
   ```
 
-  
+
+
+
+![image-20230301220039049](../Images/running_nodes.png)
+
+
+
+
 
 #### Components and applications
 
@@ -222,4 +229,10 @@ If everything is up and running you should be able to access the API by just ope
 
 ![image-20230301220039049](../Images/runningAPI.png)
 
-In my case ii can only reach that API withing my network, wich is fine for our usecase.
+In my case I can only reach that API within my home network, wich is fine for our usecase.
+
+
+
+If you add the  [Monitoring](Monitoring.md) your environment should look something like this:
+
+![image-20230301220039049](../Images/running_env.png)

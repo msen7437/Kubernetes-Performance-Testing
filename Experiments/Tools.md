@@ -21,7 +21,7 @@ sudo apt-get install k6
 
 ### Locust:
 
-Locust is an easy to use Python loadt testing framework that lets us simulate a high usage on different endpoints of our cluster
+Locust is an easy to use Python load testing framework that lets us simulate a high usage on different endpoints of our cluster
 
 
 
@@ -32,6 +32,12 @@ Locust is an easy to use Python loadt testing framework that lets us simulate a 
 ```bash
 pip install locust
 ```
+
+
+
+
+
+Apache JMeter:
 
 
 
