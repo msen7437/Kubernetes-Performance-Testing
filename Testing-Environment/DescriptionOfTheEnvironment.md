@@ -232,7 +232,7 @@ kubectl apply -f <filename>.yaml
 
 If everything is up and running you should be able to access the API by just opening  `<NodeIP>:<ExposedPort>/random-row` in your Browser:
 
-![image-20230301220039049](../Images/runningAPI.png)
+![image-20230301220039049](../Images/RunningAPI.png)
 
 In my case I can only reach that API within my home network, wich is fine for our usecase.
 

@@ -14,10 +14,6 @@ The focus here is Load and Stress Testing a Kubernetes cluster and intepreting t
 
 4.  [Scientific work](Scientific-Work/README.md) (in german)
 
-
-
-
-
 # STATUS: NOT FINISHED YET
 
 - I am currently still in the writing so it is not recommended to reference my research or use any images **yet**!
