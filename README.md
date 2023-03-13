@@ -6,13 +6,13 @@ The focus here is Load and Stress Testing a Kubernetes cluster and intepreting t
 
 ### Table of contents:
 
-1.  [Research](Research\README.md) 
+1.  [Research](Research/README.md) 
 
-2.  [Testing Environment](Testing-Environment\README.md) 
+2.  [Testing Environment](Testing-Environment/README.md) 
 
-3.  [Experiments/Tests](Experiments\README.md) 
+3.  [Experiments/Tests](Experiments/README.md) 
 
-4.  [Scientific work](Scientific-Work\README.md) (in german)
+4.  [Scientific work](Scientific-Work/README.md) (in german)
 
 
 

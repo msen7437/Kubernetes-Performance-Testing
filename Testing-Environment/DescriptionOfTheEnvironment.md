@@ -1,6 +1,8 @@
 # The Environment
 
-### Description
+### Description:
+
+This environment here differs from the one used in the scientific work, but the Load testing itself is always the same.
 
 1. #### Hardware
 
@@ -21,7 +23,7 @@
 3. #### Running Applications
 
    - PostgreSQL Server filled with random data
-   - Flask API that returns random data from the database when called
+   - [Flask-API](Flask-API.md) that returns random data from the database when called
    -  [Monitoring components](Monitoring.md) 
 
 
@@ -63,8 +65,6 @@ curl -sfL https://get.k3s.io | K3S_URL=https://myserver:6443 K3S_TOKEN=mynodetok
 **OR**
 
 Follow these instructions: https://docs.k3s.io/quick-start
-
-
 
 #### <u>!!OPTIONAL !!</u>
 
@@ -114,6 +114,10 @@ Follow these instructions: https://docs.k3s.io/quick-start
     helm install postgresql --version=12.1.5 -f helm-bitnami-postgresql-values.yaml --repo https://charts.bitnami.com/bitnami postgresql
     ```
 
+**!! DISCLAIMER !!**
+
+There is currently a bug when you want to deploy the PostgreSQL Server, somehow the password is not set to "postgres". In order to access the database you may need to use another password. Therefore you also need to change the password for the [Flask-API](Flask-API.md)  and the data ingestion in the next steps.
+
 
 
 You need to create a table in your PostgreSQL Server:
@@ -162,6 +166,7 @@ spec:
 **Flask API:**
 
 - I made a Docker Image for this specific usecase so no one has to write the Flask script themselves 
+- If you want custom values you can create your own  [Flask-API Image](Flask-API.md) 
 
 ```yaml
 apiVersion: apps/v1
@@ -233,6 +238,6 @@ In my case I can only reach that API within my home network, wich is fine for ou
 
 
 
-If you add the  [Monitoring](Monitoring.md) your environment should look something like this:
+If you add the  [Monitoring](Monitoring.md) to your environment should look something like this:
 
 ![image-20230301220039049](../Images/running_env.png)

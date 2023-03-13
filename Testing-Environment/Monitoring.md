@@ -46,8 +46,6 @@ stackablectl stack install monitoring
 
 
 
-
-
 => Grafana and Prometheus should be reachable by their respective ports:
 
 ##### Prometheus:
@@ -63,6 +61,6 @@ stackablectl stack install monitoring
 
 ![image-20230214125719176](../Images/grafana.png)
 
-- If you press on the four squares on the left, you can press on `Browse>General>Kubernetes/Compute Ressources/Namespace(Pods)` you should be able to see something like this:
+- If you click on the four squares on the left, you can press on `Browse>General>Kubernetes/Compute Ressources/Namespace(Pods)` you should be able to see something like this:
 
 ​	![image-20230214125719176](../Images/grafana-dashboard.png)

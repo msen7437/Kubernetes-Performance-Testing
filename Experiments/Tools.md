@@ -2,9 +2,10 @@
 
 ### K6:
 
-K6 is a n opensource tool that lets us use it to easily write load testing scripts in JavaScript. [1]
+K6 is an opensource tool that lets us use it to easily write load testing scripts in JavaScript. [1]
 
-
+- Lets us write JavaScript scripts for testing
+- Is often used in cloud environments
 
 ##### Installation: 
 
@@ -21,9 +22,11 @@ sudo apt-get install k6
 
 ### Locust:
 
-Locust is an easy to use Python load testing framework that lets us simulate a high usage on different endpoints of our cluster
+Locust is an easy to use Python load testing framework that lets us simulate a high usage on different endpoints of our cluster.[2]
 
-
+- Lets us write Python scripts for testing
+- Has a graphical User Interface
+- Monitors API Responsiveness
 
 ##### Installation:
 
@@ -38,6 +41,8 @@ pip install locust
 
 
 Apache JMeter:
+
+- is not being discussed here because of limited time 
 
 
 

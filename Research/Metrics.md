@@ -96,7 +96,14 @@ Pod-Level-Metrics are used to check the health of Pod.
 
    - If Pods take a long time before finally starting it may indicate issues with Kubelet or the API-Server [2]
 
-     
+
+
+
+### Disaster Recovery Metrics:
+
+
+
+
 
 ## Sources:
 
@@ -105,3 +112,5 @@ Pod-Level-Metrics are used to check the health of Pod.
 [2] https://medium.com/@bregman.arie/18-kubernetes-metrics-to-monitor-for-optimal-cluster-performance-ca9458869e52
 
 [3] https://kubernetes.io/blog/2015/09/kubernetes-performance-measurements-and/
+
+[4] https://www.comptia.org/blog/disaster-recovery-measurements
