@@ -2,7 +2,7 @@
 
 The purpose of this repository is to document my research and experiments on Kubernetes performance testing for my scientific work.
 
-The focus here is Load and Stress Testing a Kubernetes cluster and intepreting the results of those tests.
+The focus here is Load and Stress Testing a Kubernetes cluster and interpreting the results of those tests.
 
 ### Table of contents:
 
